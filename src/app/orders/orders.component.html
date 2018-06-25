@@ -1,0 +1,10 @@
+<app-table></app-table>
+<h1>Orders</h1>
+
+<ul >
+    <li *ngFor="let order of orders$">
+      <a routerLink="">{{ order.title }}</a>
+
+      <p>{{ order.body }}</p>
+    </li>
+  </ul>
